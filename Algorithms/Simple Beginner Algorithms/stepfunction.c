@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void staircase(int n) {
     int i, j;
     char hash[n][n];
@@ -8,3 +10,13 @@ void staircase(int n) {
         }
         printf("\n");
     }
+    
+}
+
+int main(){
+    int n;
+    printf("How many rows do you want?: \n");
+    scanf("%d", &n);
+    printf("\n");
+    staircase();
+}
