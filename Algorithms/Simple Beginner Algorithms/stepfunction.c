@@ -18,5 +18,5 @@ int main(){
     printf("How many rows do you want?: \n");
     scanf("%d", &n);
     printf("\n");
-    staircase();
+    staircase(n);
 }
