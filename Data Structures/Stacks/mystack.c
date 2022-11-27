@@ -50,6 +50,7 @@ int main(){
     scanf("%d", &x);
     int pushed = push(x);
     printf("\nPushed element: %d\n", pushed);
+    printf("Stack: ");
     for(i=0;i<size;i++){
         printf("%d ", arr[i]);
     }
